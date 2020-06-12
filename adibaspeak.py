@@ -9,16 +9,16 @@ username = username.replace(" ", "")
 username = username.lower()
 outsenas = []
 a = 0
-if username == "jesseeisenberg" or username == "jesse":  # adiba likes jesse eisenberg
+if username == "wittgenstein" or username == "ludwig_wittgenstein":  
     print("You are the coolest person on the planet.")
     a = a + 1
     print("You now have " + str(a) + " point.")
 elif username == "adibaejaz" or username == "adiba":
-    print("You are a genius.")
+    print("You are a human.")
     print("You now have ∞ points. However, that's weird in Python, so we'll make that a 1.")
     a = a + 1
 else:
-    print("You are stupid. Let's move on to the language.")
+    print("You are an alien. Let's move on to the language.")
     a = a - 1
     print("You now have " + str(a) + " point(s?).")  # code written by adiba
 
